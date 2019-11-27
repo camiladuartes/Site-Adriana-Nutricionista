@@ -40,7 +40,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    margin-bottom: 25px;
+    margin-bottom: 55px;
 }
 
 #insta {
@@ -54,18 +54,6 @@
     margin-bottom: 20px;
 }
 
-#part4 {
-    background-image: url("img/background3.jpg");
-    background-position: 30%;
-    margin-bottom: 40px;
-    margin-top: 40px
-}
-
-#part5 {
-    background: url("img/green_background.jpg");
-    padding-top: 8%;
-    margin-bottom: -64px;
-}
 
 #adriana{
     margin-top: -40px;
@@ -85,11 +73,29 @@
     height: 300px;
     margin-right: 40px;
     margin-top: 20px;
-    
 }
 
 p, span {
     font-size: 18px;
+}
+#part4 {
+    background-image: url("img/background3.jpg");
+    background-position: 30%;
+    margin-bottom: 40px;
+    margin-top: 50px
+}
+
+#part5 {
+    background: url("img/green_background.jpg");
+    padding-bottom: 40px;
+    margin-bottom: -64px;
+}
+
+#depo1, #depo2, #depo3 {
+    width:  330px;
+    height: 420px;
+    margin-right: 40px;
+    margin-top: 20px;
 }
 
 
@@ -168,7 +174,7 @@ p, span {
 
 }
 
-/*NAV*/
+/*Navbar*/
 .navbar-toggler-icon{
     /* background-color: turquoise; */
     background-image: url("img/lines2.png");
@@ -184,7 +190,7 @@ p, span {
 
 
 
-/*FOOTER*/
+/*Footer*/
 .footer-distributed{
     display: flex;
     flex-direction: row;
@@ -309,7 +315,7 @@ footer h3{
     margin-bottom: 0.5em;
 }
 
-/*FOOTER MOBILE*/
+/*Footer Mobile*/
 @media only screen and (max-width: 800px)
 {
     /*Footer Mobile*/
